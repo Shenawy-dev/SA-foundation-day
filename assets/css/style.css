@@ -1,6 +1,6 @@
 @font-face {
     font-family: Harir;
-    src: url(/assets/font/harir.otf);
+    src: url(assets/font/harir.otf);
 }
 html {
     background:#fefbf0;
@@ -76,7 +76,7 @@ nav {
   }
   header::after {
     content: "";
-    background-image: url(/assets/img/saffa.png);
+    background-image: url(assets/img/saffa.png);
     width: 10vw;
     background-size: contain;
     opacity: 0.3;
@@ -85,7 +85,7 @@ nav {
   }
   .mainPic::before {
     content: "";
-    background-image: url(/assets/img/original-e6a9b309404e6f9f6c7470f4fb7122f0.webp);
+    background-image: url(assets/img/original-e6a9b309404e6f9f6c7470f4fb7122f0.webp);
     width: 39vw;
     background-size: contain;
     opacity: 0.1;
