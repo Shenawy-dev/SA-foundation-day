@@ -1,0 +1,95 @@
+@font-face {
+    font-family: Harir;
+    src: url(harir.otf);
+}
+html {
+    background:#fefbf0;
+    box-sizing: border-box;
+}
+body {
+    font-family: "Harir";
+    width : 100vw;
+    height: 100vh;
+    overflow: hidden;
+}
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+nav {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    background: #f3ebd9;
+    padding: 32px;
+    
+  }
+  .logo {
+    width: 18vw;
+    display: inline-flex;
+  }
+  .logo img {
+    width: 100%;
+  }
+  .links {
+    list-style: none;
+  }
+  .links li {
+    display: inline-block;
+    margin: 0px 14px;
+    cursor: pointer;
+    font-size: 1.4vw;
+  }
+  header {
+    background: #fefbf0;
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    height: 100%;
+  }
+  h1 {
+    font-size: 7.5vw;
+  }
+  .mainPic,.mainTxt {
+    width: 45%;
+  }
+  .mainPic img {
+    width: 100%;
+    margin-top: 9vw;
+    margin-right: -1vw;
+  }
+  .mainTxt a {
+    color: #fff;
+    background: #846a63;
+    padding: 10px 34px 2px 34px;
+    text-decoration: none;
+    font-size: 24px;
+    text-align: center;
+  }
+.mainTxt {
+    padding: 5vw;
+  }
+  .mainTxt p {
+    font-size: 1.8vw;
+  }
+  header::after {
+    content: "";
+    background-image: url(/saffa.png);
+    width: 10vw;
+    background-size: contain;
+    opacity: 0.3;
+    height: 79vh;
+    background-repeat: repeat-y;
+  }
+  .mainPic::before {
+    content: "";
+    background-image: url(https://cdn.dribbble.com/userupload/4694759/file/original-e6a9b309404e6f9f6c7470f4fb7122f0.png?compress=1&resize=1024x1024&vertical=center);
+    width: 39vw;
+    background-size: contain;
+    opacity: 0.1;
+    height: 79vh;
+    background-repeat: no-repeat;
+    position: fixed;
+  }
